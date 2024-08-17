@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/AKASH/IdeaProjects/demoqa_testng/testXMLFiles">
+        <parameter name="fullName" value="AK"></parameter>
+        <parameter name="email" value="ak@email.com"></parameter>
+        <parameter name="currentAddress" value="ak europe"></parameter>
+        <parameter name="permanentAddress" value="ak europe permannet"></parameter>
+    <classes>
+        <class name="com.demoqa.tests.ElementPageTests">
+            <methods>
+                <include name="openElementPage"/>
+                <include name="fillElementPageTextModule"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
